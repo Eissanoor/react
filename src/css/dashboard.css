@@ -1,0 +1,58 @@
+.nav__cont {
+    position: fixed;
+    width: 198px;
+    top: 0;
+    height: 100vh;
+    z-index: 100;
+    background-color: #18253D;
+    ;
+    overflow: hidden;
+    transition: width .3s ease;
+    cursor: pointer;
+    box-shadow: 4px 7px 10px rgba(0, 0, 0, .4);
+}
+
+
+
+
+body {
+    height: 100vh;
+    background: radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%), radial-gradient(circle at 25.99% 27.79%, #ff94fb, transparent 100%), radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+}
+
+.submanu {
+    color: black;
+    margin-left: 10px;
+    text-decoration: solid;
+}
+
+.Block {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+    filter: invert(1);
+    padding: 10px;
+}
+
+.Block:hover {
+    background-color: #c4b26f;
+    border: solid 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.heading {
+
+    /* margin-top: 90px; */
+
+}
+
+.image {
+
+    color: #ff94fb;
+    margin-top: 25px;
+}
+
+img {
+    color: #54a4ff;
+    height: 80px;
+}
