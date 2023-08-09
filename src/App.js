@@ -66,7 +66,33 @@ function App()
     </main>
   </div>
 
+<div class="wrapper">
+    <main>
+      <h1>Fixed Side Drawer Hover Navigation </h1>
+    </main>
+      </div>
+      <div class="wrapper">
+    <main>
+      <h1>Fixed Side Drawer Hover Navigation </h1>
+    </main>
+      </div>
+       <div class="wrapper">
+    <main>
+      <h1>Fixed Side Drawer Hover Navigation </h1>
+    </main>
+  </div>
 
+<div class="wrapper">
+    <main>
+      <h1>Fixed Side Drawer Hover Navigation </h1>
+    </main>
+      </div>
+      <div class="wrapper">
+    <main>
+      <h1>Fixed Side Drawer Hover Navigation </h1>
+    </main>
+      </div>
+      
     </>
   );
 }
