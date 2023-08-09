@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import "../src/css/dashboard.css"
 import shoe1 from './image/logo.png'
-import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import FormatListNumberedRtlIcon from '@mui/icons-material/FormatListNumberedRtl';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
@@ -10,6 +10,11 @@ import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import PermMediaIcon from '@mui/icons-material/PermMedia';
 import BackupIcon from '@mui/icons-material/Backup';
+import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import MessageIcon from '@mui/icons-material/Message';
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 function App()
 {
   return (
@@ -59,40 +64,29 @@ function App()
 </div>
 </nav>
 
+  <div className='top'>
   
-  <div class="wrapper">
-    <main>
-      <h1>Fixed Side Drawer Hover Navigation </h1>
-    </main>
-  </div>
+        <div className='topbar'>
+          
+          <div className='search'>
+            <span className='icn'><AutoFixHighIcon /></span>
+            
+<input type="search" placeholder='ask me anything' id="gsearch" name="gsearch"/>
+          </div>
+          
+          <div className='icoess'>
+<div className='icosec'>
+            <CalendarMonthIcon/>
+            <MessageIcon/>
+              <NotificationsNoneIcon />
+              <AccountCircleIcon/>
+            </div>
+            </div>
+    </div>
+  
 
-<div class="wrapper">
-    <main>
-      <h1>Fixed Side Drawer Hover Navigation </h1>
-    </main>
-      </div>
-      <div class="wrapper">
-    <main>
-      <h1>Fixed Side Drawer Hover Navigation </h1>
-    </main>
-      </div>
-       <div class="wrapper">
-    <main>
-      <h1>Fixed Side Drawer Hover Navigation </h1>
-    </main>
-  </div>
 
-<div class="wrapper">
-    <main>
-      <h1>Fixed Side Drawer Hover Navigation </h1>
-    </main>
       </div>
-      <div class="wrapper">
-    <main>
-      <h1>Fixed Side Drawer Hover Navigation </h1>
-    </main>
-      </div>
-      
     </>
   );
 }
