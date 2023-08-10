@@ -15,6 +15,7 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import MessageIcon from '@mui/icons-material/Message';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import WbSunnyIcon from '@mui/icons-material/WbSunny';
 function App()
 {
   return (
@@ -84,6 +85,34 @@ function App()
             </div>
     </div>
   
+
+
+      </div>
+
+      <div className='container'>
+
+        <div className='suncontainer'>
+          <div className='tempra'>
+         <span className='sun'><WbSunnyIcon/></span>  
+            <h1 style={{fontSize:"55px"}}>33 °C</h1>
+            <div className='karac'>
+            <h1> &nbsp; Welcome Back! </h1>
+           
+            <h1 className='hhh'> &nbsp; Karachi</h1>
+            
+              <h3> &nbsp; Developer, Digital Transformation, 99021312</h3>
+        </div>
+          </div>
+          <div className='cardsss'>
+            <a>3222</a>
+            <a>3222</a>
+            <a>3222</a>
+            <a>3222</a>
+
+          </div>
+        </div>
+
+<div>to do list</div>
 
 
       </div>

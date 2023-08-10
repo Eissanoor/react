@@ -98,6 +98,7 @@ img {
     background-color: transparent;
     color: aliceblue;
     padding-left: 44px;
+    font-size: unset;
 }
 
 .top {
@@ -124,4 +125,43 @@ img {
 .icosec {
     display: flex;
     justify-content: space-evenly;
+}
+
+.container {
+
+    width: 80%;
+    margin: auto 223px;
+
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suncontainer {
+    color: #ffffff;
+}
+
+.tempra {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsss {
+
+    background-color: seagreen;
+}
+
+.sun {
+    color: rgb(255, 251, 0);
+}
+
+.karac {
+    display: block;
+}
+
+.hhh {
+    margin-top: -10px;
 }
