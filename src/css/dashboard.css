@@ -209,3 +209,13 @@ img {
     display: flex;
     justify-content: space-between;
 }
+
+.threedot:hover {
+
+    background-color: #575757;
+    border-radius: 50%;
+}
+
+.threedot {
+    cursor: pointer;
+}

@@ -110,7 +110,7 @@ function App()
 
               <div className='car1'>
                 <img src={require('./image/Vector.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
-              <MoreVertIcon   />
+              <MoreVertIcon className='threedot'  />
                 
               </div>
               
@@ -121,7 +121,7 @@ function App()
 
               <div className='car1'>
                 <img src={require('./image/Group.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
-              <MoreVertIcon   />
+              <MoreVertIcon className='threedot'  />
                 
               </div>
               
@@ -132,7 +132,7 @@ function App()
 
               <div className='car1'>
                 <img src={require('./image/Vector2.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
-              <MoreVertIcon   />
+              <MoreVertIcon className='threedot'  />
                 
               </div>
               
@@ -143,7 +143,7 @@ function App()
 
               <div className='car1'>
                 <img src={require('./image/Vector1.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
-              <MoreVertIcon   />
+              <MoreVertIcon className='threedot'  />
                 
               </div>
               
@@ -158,13 +158,13 @@ function App()
           
           <div className='todo1'>
             <div><h2>To Do Lists</h2></div>
-            <div> <h5 style={{marginTop:"30px"}}> See All</h5></div>
+            <div> <h5 style={{marginTop:"30px", cursor:"pointer"}}> See All</h5></div>
             
           
           </div>
           <div className='todo1'>
             <div><h3 style={{marginTop:"0px"}}>2 . April . 2023 </h3></div>
-            <div> <h5 style={{marginTop:"0px"}}><img src={require('./image/left.png')} style={{ height: "30px"}} /> &nbsp; <img src={require('./image/right.png')} style={{ height: "30px"}} /></h5></div>
+            <div> <h5 style={{marginTop:"0px"}}><img src={require('./image/left.png')} style={{ height: "30px", cursor:"pointer"}} /> &nbsp; <img src={require('./image/right.png')} style={{ height: "30px",cursor:"pointer"}} /></h5></div>
             
           
           </div>
