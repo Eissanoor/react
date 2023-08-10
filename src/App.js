@@ -93,14 +93,14 @@ function App()
 
         <div className='suncontainer'>
           <div className='tempra'>
-         <span className='sun'><WbSunnyIcon/></span>  
-            <h1 style={{fontSize:"55px"}}>33 °C</h1>
+         <span className='sun'><WbSunnyIcon style={{ fontSize: "50px" }} /></span>  
+            <h1 style={{fontSize:"55px"}}> &nbsp; 33 °C</h1>
             <div className='karac'>
-            <h1> &nbsp; Welcome Back! </h1>
+            <h1 style={{marginTop:"5px"}} > &nbsp; Welcome Back! </h1>
            
             <h1 className='hhh'> &nbsp; Karachi</h1>
             
-              <h3> &nbsp; Developer, Digital Transformation, 99021312</h3>
+              <h3 className='deve'> &nbsp; Developer, Digital Transformation, 99021312</h3>
         </div>
           </div>
           <div className='cardsss'>
