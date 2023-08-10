@@ -73,7 +73,7 @@ img {
 
 .topbar {
 
-    background-color: #261425;
+
     display: flex;
     justify-content: space-between;
     margin-top: 14px;
@@ -106,7 +106,8 @@ img {
     width: 80%;
     margin: auto 223px;
     margin-top: 14px;
-    opacity: 0.8;
+    background-color: hsla(298, 28%, 21%, 0.5);
+    backdrop-filter: blur(5px);
 }
 
 
@@ -191,7 +192,8 @@ img {
     border: solid 1px;
     border-radius: 14px;
     margin-left: 15px;
-    opacity: 0.8;
+    background-color: hsla(298, 28%, 21%, 0.5);
+    backdrop-filter: blur(5px);
 }
 
 .todo {
@@ -201,7 +203,8 @@ img {
     border-radius: 15px;
     border-color: #ffffff;
     width: 270px;
-    opacity: 0.8;
+    background-color: hsla(298, 28%, 21%, 0.5);
+    backdrop-filter: blur(5px);
 }
 
 .todo1 {
@@ -212,7 +215,7 @@ img {
 
 .threedot:hover {
 
-    background-color: #575757;
+    background-color: #593364;
     border-radius: 50%;
 }
 

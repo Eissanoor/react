@@ -79,10 +79,10 @@ function App()
           
           <div className='icoess'>
 <div className='icosec'>
-            <CalendarMonthIcon/>
-            <MessageIcon/>
-              <NotificationsNoneIcon />
-              <AccountCircleIcon/>
+            <CalendarMonthIcon style={{cursor:"pointer"}}/>
+            <MessageIcon style={{cursor:"pointer"}}/>
+              <NotificationsNoneIcon style={{cursor:"pointer"}} />
+              <AccountCircleIcon style={{cursor:"pointer"}} />
             </div>
             </div>
     </div>
