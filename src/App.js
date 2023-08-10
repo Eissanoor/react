@@ -2,7 +2,8 @@
 import './App.css';
 import "../src/css/dashboard.css"
 import shoe1 from './image/logo.png'
-
+import right from './image/right.png'
+import left from './image/left.png'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import FormatListNumberedRtlIcon from '@mui/icons-material/FormatListNumberedRtl';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
@@ -162,8 +163,8 @@ function App()
           
           </div>
           <div className='todo1'>
-            <div><h2>To Do Lists</h2></div>
-            <div> <h5 style={{marginTop:"30px"}}> See All</h5></div>
+            <div><h3 style={{marginTop:"0px"}}>2 . April . 2023 </h3></div>
+            <div> <h5 style={{marginTop:"0px"}}><img src={require('./image/left.png')} style={{ height: "30px"}} /> &nbsp; <img src={require('./image/right.png')} style={{ height: "30px"}} /></h5></div>
             
           
           </div>
