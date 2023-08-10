@@ -153,7 +153,22 @@ function App()
           </div>
         </div>
 
-<div>to do list</div>
+        <div className='todo'>
+          
+          <div className='todo1'>
+            <div><h2>To Do Lists</h2></div>
+            <div> <h5 style={{marginTop:"30px"}}> See All</h5></div>
+            
+          
+          </div>
+          <div className='todo1'>
+            <div><h2>To Do Lists</h2></div>
+            <div> <h5 style={{marginTop:"30px"}}> See All</h5></div>
+            
+          
+          </div>
+         
+</div>
 
 
       </div>
