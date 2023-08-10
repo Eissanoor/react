@@ -2,8 +2,7 @@
 import './App.css';
 import "../src/css/dashboard.css"
 import shoe1 from './image/logo.png'
-import right from './image/right.png'
-import left from './image/left.png'
+
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import FormatListNumberedRtlIcon from '@mui/icons-material/FormatListNumberedRtl';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
@@ -109,7 +108,7 @@ function App()
             <div className='car2'>
 
               <div className='car1'>
-                <img src={require('./image/Vector.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+                <img src={require('./image/Vector.png')} alt="Girl in a jacket" style={{ fontSize: "55px", width: "40px",height: "40px"}} />
               <MoreVertIcon className='threedot'  />
                 
               </div>
@@ -120,7 +119,7 @@ function App()
              <div className='car2'>
 
               <div className='car1'>
-                <img src={require('./image/Group.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+                <img src={require('./image/Group.png')} alt="Girl in a jacket" style={{ fontSize: "55px", width: "40px",height: "40px"}} />
               <MoreVertIcon className='threedot'  />
                 
               </div>
@@ -131,7 +130,7 @@ function App()
              <div className='car2'>
 
               <div className='car1'>
-                <img src={require('./image/Vector2.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+                <img src={require('./image/Vector2.png')} alt="Girl in a jacket" style={{ fontSize: "55px", width: "40px",height: "40px"}} />
               <MoreVertIcon className='threedot'  />
                 
               </div>
@@ -142,7 +141,7 @@ function App()
              <div className='car2'>
 
               <div className='car1'>
-                <img src={require('./image/Vector1.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+                <img src={require('./image/Vector1.png')} alt="Girl in a jacket" style={{ fontSize: "55px", width: "40px",height: "40px"}} />
               <MoreVertIcon className='threedot'  />
                 
               </div>
@@ -164,7 +163,7 @@ function App()
           </div>
           <div className='todo1'>
             <div><h3 style={{marginTop:"0px"}}>2 . April . 2023 </h3></div>
-            <div> <h5 style={{marginTop:"0px"}}><img src={require('./image/left.png')} style={{ height: "30px", cursor:"pointer"}} /> &nbsp; <img src={require('./image/right.png')} style={{ height: "30px",cursor:"pointer"}} /></h5></div>
+            <div> <h5 style={{marginTop:"0px"}}><img src={require('./image/left.png')} alt="Girl in a jacket" style={{ height: "30px", cursor:"pointer"}} /> &nbsp; <img src={require('./image/right.png')} alt="Girl in a jacket" style={{ height: "30px",cursor:"pointer"}} /></h5></div>
             
           
           </div>
