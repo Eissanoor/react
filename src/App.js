@@ -16,6 +16,7 @@ import MessageIcon from '@mui/icons-material/Message';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 function App()
 {
   return (
@@ -104,10 +105,50 @@ function App()
         </div>
           </div>
           <div className='cardsss'>
-            <a>3222</a>
-            <a>3222</a>
-            <a>3222</a>
-            <a>3222</a>
+            <div className='car2'>
+
+              <div className='car1'>
+                <img src={require('./image/Vector.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+              <MoreVertIcon   />
+                
+              </div>
+              
+              <h3>PKR 324234</h3>
+              <p>your month budget</p>
+            </div>
+             <div className='car2'>
+
+              <div className='car1'>
+                <img src={require('./image/Vector.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+              <MoreVertIcon   />
+                
+              </div>
+              
+              <h3>PKR 324234</h3>
+              <p>your month budget</p>
+            </div>
+             <div className='car2'>
+
+              <div className='car1'>
+                <img src={require('./image/Vector.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+              <MoreVertIcon   />
+                
+              </div>
+              
+              <h3>PKR 324234</h3>
+              <p>your month budget</p>
+            </div>
+             <div className='car2'>
+
+              <div className='car1'>
+                <img src={require('./image/Vector.png')} style={{ fontSize: "55px", width: "40px",height: "40px"}} />
+              <MoreVertIcon   />
+                
+              </div>
+              
+              <h3>PKR 324234</h3>
+              <p>your month budget</p>
+            </div>
 
           </div>
         </div>

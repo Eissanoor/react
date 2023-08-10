@@ -151,7 +151,9 @@ img {
 
 .cardsss {
 
-    background-color: seagreen;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px
 }
 
 .sun {
@@ -170,4 +172,21 @@ img {
 .deve {
     margin-top: -15px;
 
+}
+
+.car1 {
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+
+}
+
+.car2 {
+    background-color: #6a6a6a;
+    width: 142px;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 14px;
+    margin-left: 15px;
 }
