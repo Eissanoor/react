@@ -202,7 +202,7 @@ img {
     border: solid 1px;
     border-radius: 15px;
     border-color: #ffffff;
-    width: 270px;
+    width: 311px;
     background-color: hsla(298, 28%, 21%, 0.5);
     backdrop-filter: blur(5px);
 }
@@ -222,3 +222,24 @@ img {
 .threedot {
     cursor: pointer;
 }
+
+.todolist {
+    display: flex;
+
+    justify-content: space-around;
+    color: white;
+}
+
+.todolist1 {
+    background-color: #433C4F;
+    width: 51px;
+    border: solid 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.todolist2 {
+    padding-right: 47px;
+}
+
+.todolist3 {}

@@ -17,6 +17,8 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import CheckIcon from '@mui/icons-material/Check';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 function App()
 {
   return (
@@ -164,10 +166,39 @@ function App()
           <div className='todo1'>
             <div><h3 style={{marginTop:"0px"}}>2 . April . 2023 </h3></div>
             <div> <h5 style={{marginTop:"0px"}}><img src={require('./image/left.png')} alt="Girl in a jacket" style={{ height: "30px", cursor:"pointer"}} /> &nbsp; <img src={require('./image/right.png')} alt="Girl in a jacket" style={{ height: "30px",cursor:"pointer"}} /></h5></div>
-            
+
+          
+
+
+
           
           </div>
-         
+            <div className='todolist' >
+              
+            <div className='todolist1' > <p>1</p> </div>
+            <div className='todolist2' ><span style={{fontWeight:"bold"}} >Run payroll</span> <br/> <span>Run end</span></div>
+            <div className='todolist3' ><p><CheckIcon style={{color:"#57ee57", fontSize:"21px", border:"solid 0px", borderRadius:"5px", backgroundColor:"#433C4F"}} /> <DeleteOutlineIcon style={{color:"red", fontSize:"21px", border:"solid 0px", borderRadius:"5px", backgroundColor:"#433C4F"}} /></p></div>
+
+
+          </div>
+          <hr />
+          <div className='todolist' >
+              
+            <div className='todolist1' > <p>1</p> </div>
+            <div className='todolist2' ><span style={{fontWeight:"bold"}} >Run payroll</span> <br/> <span>Run end</span></div>
+            <div className='todolist3' ><p><CheckIcon style={{color:"#57ee57", fontSize:"21px", border:"solid 0px", borderRadius:"5px", backgroundColor:"#433C4F"}} /> <DeleteOutlineIcon style={{color:"red", fontSize:"21px", border:"solid 0px", borderRadius:"5px", backgroundColor:"#433C4F"}} /></p></div>
+
+
+          </div>
+          <hr />
+          <div className='todolist' >
+              
+            <div className='todolist1' > <p>1</p> </div>
+            <div className='todolist2' ><span style={{fontWeight:"bold"}} >Run payroll</span> <br/> <span>Run end</span></div>
+            <div className='todolist3' ><p><CheckIcon style={{color:"#57ee57", fontSize:"21px", border:"solid 0px", borderRadius:"5px", backgroundColor:"#433C4F"}} /> <DeleteOutlineIcon style={{color:"red", fontSize:"21px", border:"solid 0px", borderRadius:"5px", backgroundColor:"#433C4F"}} /></p></div>
+
+
+          </div>
 </div>
 
 
