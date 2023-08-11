@@ -19,6 +19,7 @@ import WbSunnyIcon from '@mui/icons-material/WbSunny';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import CheckIcon from '@mui/icons-material/Check';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import AddIcon from '@mui/icons-material/Add';
 function App()
 {
   return (
@@ -199,8 +200,10 @@ function App()
 
 
           </div>
+<div>
+          <button style={{width: "100%", height: "38px",marginTop: "13px",backgroundColor:"rgb(101, 92, 117)", border:"solid 0.2px", borderRadius: "9px", borderColor:"white", color:"white", fontWeight:"bold", display:"flex", justifyContent:"center", alignItems:"center" }} >Create a new item <AddIcon /> </button>
 </div>
-
+</div>
 
       </div>
     </>
